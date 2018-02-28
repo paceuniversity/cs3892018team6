@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="action_settings">Parameters</string>
+    <string name="action_about">About</string>
+    <string name="Click">Click Me</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
