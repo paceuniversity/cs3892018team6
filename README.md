@@ -3,3 +3,5 @@
 2/27/18 8:30 PM Matthew Sokolovsky - I uploaded the project to GitHub. So far the project is just the code I produced during the Android lesson.
 
 3/4/18 5:50 PM Matthew Sokolovsky - I finished my first draft of the product backlog.
+
+3/4/18 7:00 PM Matthew Sokolovsky - I added a picture (from worldmapper.org) in the proposal showing what the map might look like.
