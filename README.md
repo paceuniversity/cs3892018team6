@@ -5,3 +5,5 @@
 3/4/18 5:50 PM Matthew Sokolovsky - I finished my first draft of the product backlog.
 
 3/4/18 7:00 PM Matthew Sokolovsky - I added a picture (from worldmapper.org) in the proposal showing what the map might look like.
+
+3/6/18 7:30 PM Matthew Sokolovsky - I published my second draft of the product backlog.
