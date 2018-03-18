@@ -10,4 +10,4 @@
 
 3/8/18 7:45 PM Matthew Sokolovsky - I changed the product backlog; there is a column listing for each user story what type of requirement it is, and I changed the priorities to follow the MoSCoW system.
 
-3/18/18 7:30 PM Matthew Sokolovsky - I added the requirements validation from Team 3.
+3/18/18 7:30 PM Matthew Sokolovsky - I added the requirements validation from Team 3 to the Issues section.
