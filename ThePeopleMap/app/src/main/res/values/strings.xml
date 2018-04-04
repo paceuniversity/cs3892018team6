@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">The People Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="II_country_name">Country name</string>
+    <string name="II_upload">Upload</string>
+    <string name="button_set_data">Set Data</string>
+    <string name="button_get_data">Get Data</string>
+    <string name="III_country_name">Enter name of country</string>
+    <string name="III_search">Search</string>
+    <string name="III_population_label">Population:</string>
+    <string name="II_country_population">Country population</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="Display_Map">Display Map</string>
+    <string name="region_name_background">Water</string>
+</resources>

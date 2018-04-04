@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "974758724472",
+    "firebase_url": "https://thepeoplemap-75728.firebaseio.com",
+    "project_id": "thepeoplemap-75728",
+    "storage_bucket": "thepeoplemap-75728.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974758724472:android:457f80431abc11a6",
+        "android_client_info": {
+          "package_name": "com.olvynchuru.thepeoplemap.thepeoplemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974758724472-0rlqan9liurnm7t8eptd0g64nrddmtq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.olvynchuru.thepeoplemap.thepeoplemap",
+            "certificate_hash": "05a5dd31b8952859c708ee176962ae20f1f3c61c"
+          }
+        },
+        {
+          "client_id": "974758724472-rsmb2ed5bjsvgapaf8psub456niafnrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGIZEEjzpwQU_Vua23RHSg56TNg5mMn3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974758724472-rsmb2ed5bjsvgapaf8psub456niafnrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
