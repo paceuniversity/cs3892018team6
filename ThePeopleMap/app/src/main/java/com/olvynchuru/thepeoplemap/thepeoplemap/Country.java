@@ -10,7 +10,6 @@ public class Country {
 
     public String name;
 
-    public int id;
     public int population;
 
     public Country() {
@@ -19,13 +18,11 @@ public class Country {
     public Country(String name) {
         numCountries++;
         this.name = name;
-        this.id = numCountries;
     }
 
     public Country(String name, int population) {
         numCountries++;
         this.name = name;
-        this.id = numCountries;
         this.population = population;
     }
 
