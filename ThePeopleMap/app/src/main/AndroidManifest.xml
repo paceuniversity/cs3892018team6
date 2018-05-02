@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_peoplemap"
+        android:icon="@drawable/ic_peoplemap"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_peoplemap"
+        android:roundIcon="@drawable/ic_peoplemap"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
