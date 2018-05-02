@@ -8,9 +8,9 @@ public class Country {
 
     public static int numCountries = 0;
 
-    public String name;
+    private String name;
 
-    public int population;
+    private int population;
 
     public Country() {
     }
@@ -28,5 +28,17 @@ public class Country {
 
     public void setPopulation(int population) {
         this.population = population;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPopulation() {
+        return this.population;
+    }
+
+    public String getName() {
+        return this.name;
     }
 }
