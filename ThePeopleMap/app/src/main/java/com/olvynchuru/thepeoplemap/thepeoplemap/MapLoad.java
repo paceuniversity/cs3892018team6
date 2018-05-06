@@ -214,7 +214,7 @@ public class MapLoad extends AppCompatActivity {
                     "19751651\n" +
                     "de\n" +
                     "cd\n" +
-                    "86\n" +
+                    "95\n" +
                     "Burundi\n" +
                     "11216450\n" +
                     "de\n" +

@@ -122,12 +122,8 @@ public class MapDisplay extends AppCompatActivity {
                 }
                 else if (action == MotionEvent.ACTION_DOWN) {
 
-                    try {
-                        xDown = event.getX();
-                        yDown = event.getY();
-                    } catch (IllegalArgumentException outOfBounds) {
-                        Log.d(TAG, "Out of bounds");
-                    }
+                    xDown = event.getX();
+                    yDown = event.getY();
 
                 }
                 else if (action == MotionEvent.ACTION_MOVE && !disableMove) {
@@ -135,15 +131,9 @@ public class MapDisplay extends AppCompatActivity {
                         xMovePrev = xDown;
                     if (yMovePrev == 0)
                         yMovePrev = yDown;
-                    boolean noException = false;
-                    try {
                         xMove = event.getX();
                         yMove = event.getY();
-                        noException = true;
-                    } catch (IllegalArgumentException outOfBounds) {
-                        Log.d(TAG, "Out of bounds");
-                    }
-                    if (noException && Math.hypot((double) (xMove - xDown), (double) (yMove - yDown)) > 10) {
+                    if (Math.hypot((double) (xMove - xDown), (double) (yMove - yDown)) > 10) {
                         img.scrollBy((int) (xMovePrev - xMove), (int) (yMovePrev - yMove));
                     }
                     xMovePrev = xMove;
@@ -155,18 +145,12 @@ public class MapDisplay extends AppCompatActivity {
                     xMovePrev = 0;
                     yMove = 0;
                     yMovePrev = 0;
-                    boolean noException = false;
-                    try {
                         xUp = event.getX();
                         yUp = event.getY();
-                        noException = true;
-                    } catch (IllegalArgumentException outOfBounds) {
-                        Log.d(TAG, "Out of bounds");
-                    }
 
 
 
-                    if (noException) {
+                    if (xUp >= 0 && yUp >= 0) {
                         img.setDrawingCacheEnabled(true);
                         Bitmap imgbmp = Bitmap.createBitmap(img.getDrawingCache());
                         img.setDrawingCacheEnabled(false);
@@ -238,4 +222,3 @@ public class MapDisplay extends AppCompatActivity {
         }
     }
 }
-
